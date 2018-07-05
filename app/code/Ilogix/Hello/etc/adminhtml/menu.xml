@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Hello_Ilogix::first_custom_menu"
+             title="Ilogix Menus"
+             module="Ilogix_Hello"
+             sortOrder="9999"
+             resource="Magento_Backend::content" />
+
+        <!--Add this block if you want to create second level menu on that case remove action from the first menu item-->
+       <add id="Hello_Ilogix::second_custom_menu"
+             title="ViewPage"
+             module="Ilogix_Hello"
+             sortOrder="0"
+             action="hello/hello/index"
+             parent="Hello_Ilogix::first_custom_menu"
+             resource="Magento_Backend::content" />
+    </menu>
+</config>

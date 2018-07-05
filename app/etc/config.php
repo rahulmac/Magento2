@@ -143,6 +143,7 @@ return [
     'Dotdigitalgroup_Email' => 1,
     'Magento_WishlistAnalytics' => 1,
     'Magento_WishlistSampleData' => 1,
+    'Rahul_Customize' => 1,
     'Shopial_Facebook' => 1,
     'Solwin_Core' => 1,
     'Solwin_Cpanel' => 1,
